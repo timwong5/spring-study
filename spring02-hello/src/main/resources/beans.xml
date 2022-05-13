@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 <!--    使用Spring创建对象 在Spring中 对象都称为Bean-->
 
-    <bean id = "hello" class="com.timwang5.pojo.hello">
+    <bean id = "hello" class="com.timwang5.pojo.Hello">
         <property name="str" value="Spring"/>
 
     </bean>

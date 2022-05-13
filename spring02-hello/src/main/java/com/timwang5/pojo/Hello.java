@@ -1,6 +1,6 @@
 package com.timwang5.pojo;
 
-public class hello {
+public class Hello {
 
     private String str;
 
