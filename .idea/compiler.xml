@@ -10,5 +10,10 @@
         <module name="spring02-hello" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-study" target="1.5" />
+      <module name="spring01-ioc1" target="1.5" />
+      <module name="spring02-hello" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
