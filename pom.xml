@@ -11,6 +11,7 @@
     <modules>
         <module>spring01-ioc1</module>
         <module>spring02-hello</module>
+        <module>spring03-ioc2</module>
     </modules>
 
     <dependencies>

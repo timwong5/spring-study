@@ -1,0 +1,38 @@
+package com.timwang5.pojo;
+
+public class UserTwo {
+
+    public UserTwo(){
+        System.out.println("user2 is created");
+    }
+
+    private String name;
+
+
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public void show(){
+        System.out.println("name = "+name);
+    }
+
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
+
+
+
+}
