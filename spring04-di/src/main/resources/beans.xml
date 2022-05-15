@@ -4,9 +4,64 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id ="address" class="com.timwang5.pojo.Address">
+        <property name="address" value="Hangzhou"/>
+    </bean>
+
 
     <bean id = "student" class="com.timwang5.pojo.Students">
+<!--        普通值注入 value-->
         <property name="name" value="tim"/>
+        <property name="address" ref="address"/>
+        <property name="book">
+            <array>
+                <value>西游记</value>
+                <value>水浒传</value>
+                <value>红楼梦</value>
+                <value>三国演义</value>
+            </array>
+        </property>
+
+
+        <property name="hobbies">
+            <list>
+                <value>打飞机</value>
+                <value>透批</value>
+                <value>舔脚</value>
+            </list>
+        </property>
+
+        <property name="studentCard">
+            <map>
+                <entry key="id" value="130205199702054517"/>
+                <entry key="password" value="Nexusmodmanager5"/>
+            </map>
+        </property>
+
+
+        <property name="games">
+            <set>
+                <value>Halo Infinite</value>
+            </set>
+        </property>
+
+<!--        <property name="wife" value=""/>-->
+
+        <property name="wife">
+            <null/>
+        </property>
+
+
+        <property name="info">
+            <props>
+                <prop key="StudentID">201526810824</prop>
+                <prop key="gender">male</prop>
+                <prop key="name">tim</prop>
+            </props>
+        </property>
+
+
+
     </bean>
 
 

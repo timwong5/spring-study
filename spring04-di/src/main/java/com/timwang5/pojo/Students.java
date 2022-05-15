@@ -100,7 +100,7 @@ public class Students {
     public String toString() {
         return "Students{" +
                 "name='" + name + '\'' +
-                ", address=" + address +
+                ", address=" + address.toString() +
                 ", book=" + Arrays.toString(book) +
                 ", hobbies=" + hobbies +
                 ", studentCard=" + studentCard +

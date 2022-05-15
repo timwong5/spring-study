@@ -9,6 +9,8 @@ public class MyTest {
 
         Students student = (Students) context.getBean("student");
 
-        System.out.println(student.getName());
+        //System.out.println(student.getName());
+
+        System.out.println(student.toString());
     }
 }
