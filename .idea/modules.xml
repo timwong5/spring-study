@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring03-ioc2/spring03-ioc2.iml" filepath="$PROJECT_DIR$/spring03-ioc2/spring03-ioc2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring04-di/spring04-di.iml" filepath="$PROJECT_DIR$/spring04-di/spring04-di.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring05-autowired/spring05-autowired.iml" filepath="$PROJECT_DIR$/spring05-autowired/spring05-autowired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring06-annotation/spring06-annotation.iml" filepath="$PROJECT_DIR$/spring06-annotation/spring06-annotation.iml" />
     </modules>
   </component>
 </project>
