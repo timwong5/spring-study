@@ -1,6 +1,6 @@
-## This project is for the Spring5 study - teached by Qin Jiang
+#Spring5 学习 - 教程来自Qin Jiang
 
-
+## 注解开发
 @Autowired与@Resource异同：
 
 1、@Autowired与@Resource都可以用来装配bean。都可以写在字段上，或写在setter方法上。
@@ -11,4 +11,18 @@
 
 它们的作用相同都是用注解方式注入对象，但执行顺序不同。@Autowired先byType，@Resource先byName。
 
-4、@Component 组件，放在类上，说明这个类被Spring管理了
+4、@Component 组件，放在类上，说明这个类被Spring管理了,就是bean
+
+
+
+## 衍生注解
+
+@Component三个衍生注解 为了更好的进行分层，Spring可以使用其它三个注解，功能一样，目前使用哪一个功能都一样。
+
+1、@Controller：web层
+
+2、@Service：service层
+
+3、@Repository：dao层
+
+写上这些注解，就相当于将这个类交给Spring管理装配了！
