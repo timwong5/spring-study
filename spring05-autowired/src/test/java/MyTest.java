@@ -7,7 +7,7 @@ public class MyTest {
 
 
     @Test
-    public void test1(){
+    public void testPerson(){
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
         Person person = context.getBean("person", Person.class);
@@ -16,5 +16,7 @@ public class MyTest {
 
 
         person.getDog().shout();
+
+        System.out.println(person.getName());
     }
 }

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
-
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
 
 
     <bean id="cat" class="com.timwang5.pojo.Cat"/>
@@ -11,11 +13,14 @@
 
     <bean id="dog" class="com.timwang5.pojo.Dog"/>
 
-<!--    尝试自动装配bean里的属性-->
+    <!--    尝试自动装配bean里的属性-->
     <bean id="person" class="com.timwang5.pojo.Person">
         <property name="name" value="tim"/>
-        <property name="dog" ref="dog"/>
-        <property name="cat" ref="cat"/>
     </bean>
 
-    </beans>
+    <!--    添加注解支持
+   导入约束  xmlns:context="http://www.springframework.org/schema/context" -->
+    <context:annotation-config/>
+
+
+</beans>

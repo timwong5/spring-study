@@ -1,11 +1,13 @@
 package com.timwang5.pojo;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Person {
 
-
+    @Autowired
     private Cat cat;
+    @Autowired
     private Dog dog;
-
     private String name;
 
 
