@@ -12,6 +12,7 @@
         <module name="spring06-annotation" />
         <module name="spring05-autowired" />
         <module name="spring03-ioc2" />
+        <module name="spring07-appconfig" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="spring04-di" target="1.5" />
       <module name="spring05-autowired" target="1.5" />
       <module name="spring06-annotation" target="1.5" />
+      <module name="spring07-appconfig" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

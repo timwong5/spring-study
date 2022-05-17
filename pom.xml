@@ -15,6 +15,7 @@
         <module>spring04-di</module>
         <module>spring05-autowired</module>
         <module>spring06-annotation</module>
+        <module>spring07-appconfig</module>
     </modules>
 
     <dependencies>
