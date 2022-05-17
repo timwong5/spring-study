@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring05-autowired/spring05-autowired.iml" filepath="$PROJECT_DIR$/spring05-autowired/spring05-autowired.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring06-annotation/spring06-annotation.iml" filepath="$PROJECT_DIR$/spring06-annotation/spring06-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring07-appconfig/spring07-appconfig.iml" filepath="$PROJECT_DIR$/spring07-appconfig/spring07-appconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring08-proxy/spring08-proxy.iml" filepath="$PROJECT_DIR$/spring08-proxy/spring08-proxy.iml" />
     </modules>
   </component>
 </project>
