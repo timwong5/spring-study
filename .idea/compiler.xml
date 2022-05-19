@@ -6,26 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring05-autowired" />
         <module name="spring02-hello" />
         <module name="spring01-ioc1" />
-        <module name="spring04-di" />
-        <module name="spring06-annotation" />
-        <module name="spring05-autowired" />
         <module name="spring08-proxy" />
         <module name="spring03-ioc2" />
         <module name="spring07-appconfig" />
+        <module name="spring09-aop" />
+        <module name="spring04-di" />
+        <module name="spring06-annotation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-study" target="1.5" />
-      <module name="spring01-ioc1" target="1.5" />
-      <module name="spring02-hello" target="1.5" />
-      <module name="spring03-ioc2" target="1.5" />
-      <module name="spring04-di" target="1.5" />
-      <module name="spring05-autowired" target="1.5" />
-      <module name="spring06-annotation" target="1.5" />
-      <module name="spring07-appconfig" target="1.5" />
-      <module name="spring08-proxy" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

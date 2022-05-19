@@ -18,5 +18,6 @@ public class MyTest {
         person.getDog().shout();
 
         System.out.println(person.getName());
+
     }
 }
