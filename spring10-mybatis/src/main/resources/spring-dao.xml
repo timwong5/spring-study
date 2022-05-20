@@ -41,4 +41,9 @@
     </bean>
 
 
+    <bean id="userMapper2" class="com.timwang5.mapper.UserMapperImpl2">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+
 </beans>
