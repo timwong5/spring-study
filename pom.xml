@@ -20,6 +20,7 @@
         <module>spring09-aop</module>
         <module>spring09-aop</module>
         <module>spring09-aop</module>
+        <module>spring10-mybatis</module>
     </modules>
 
     <dependencies>
